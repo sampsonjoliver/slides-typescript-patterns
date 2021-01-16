@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "es5",
+      "es6",
+      "dom",
+      "es2015.core",
+      "es2015.collection",
+      "es2015.generator",
+      "es2015.iterable",
+      "es2015.promise",
+      "es2015.proxy",
+      "es2015.reflect",
+      "es2015.symbol",
+      "es2015.symbol.wellknown",
+      "es2016.array.include",
+      "esnext.asynciterable",
+      "es2017.object"
+    ],
+    "target": "es2017",
+    "module": "esNext",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "types": ["node", "jest"],
+    "allowJs": true,
+    "removeComments": false,
+    "strict": true,
+    "noImplicitAny": false,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "sourceMap": false,
+    "skipLibCheck": true,
+    "noEmit": true
+  },
+  "ignoreRules": {
+    "TS2307": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
